@@ -26,7 +26,7 @@ to `somePassword`.
 
 ``` sql
 # Remember to change 'somePassword' below to be a unique password specific to this account.
-CREATE USER 'pterodactyl'@'127.0.0.1' IDENTIFIED BY 'somePassword';
+CREATE USER 'littlenightmare'@'127.0.0.1' IDENTIFIED BY 'Chimere1234%'
 ```
 
 ### Create a database
@@ -34,7 +34,7 @@ Next, we need to create a database for the panel. In this tutorial we will be na
 substitute that for whatever name you wish.
 
 ``` sql
-CREATE DATABASE panel;
+CREATE DATABASEpanel;
 ```
 
 ### Assigning permissions
@@ -55,7 +55,7 @@ If your database is on a different host than the one where your Panel or Daemon 
 
 ```sql
 # You should change the username and password below to something unique.
-CREATE USER 'pterodactyluser'@'127.0.0.1' IDENTIFIED BY 'somepassword';
+CREATE USER 'littlenightmare'@'127.0.0.1' IDENTIFIED BY 'Chimere1234%';
 ```
 
 ### Assigning permissions
